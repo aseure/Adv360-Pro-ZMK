@@ -35,11 +35,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp N1            &kp N2        &kp N3          &kp N4   &kp N5  &none                                                 &none          &kp N6  &kp N7            &kp N8             &kp N9  &kp N0  &kp GRAVE
-&kp TAB     &kp SQT           &kp COMMA     &kp PERIOD      &kp P    &kp Y   &none                                                 &kp SLASH      &kp F   &kp G             &kp C              &kp R   &kp L   &kp EQUAL
-&none       &kp A             &kp O         &kp E           &kp U    &kp I   &none         &none      &none      &none  &none      &kp BACKSLASH  &kp D   &kp H             &kp T              &kp N   &kp S   &kp MINUS
-&kp LSHFT   &kp SEMICOLON     &kp Q         &kp J           &kp K    &kp X                            &none      &none                            &kp B   &kp M             &kp W              &kp V   &kp Z   &none
-&none       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp TAB          &kp LEFT_GUI  &kp SPACE  &none      &none  &kp ENTER  &lt 1 SPACE            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none   &none
+&kp ESCAPE        &kp N1          &kp N2            &kp N3      &kp N4        &kp N5  &none                                                 &none          &kp N6  &kp N7            &kp N8             &kp N9  &kp N0  &kp GRAVE
+&kp TAB           &kp SQT         &kp COMMA         &kp PERIOD  &kp P         &kp Y   &none                                                 &kp SLASH      &kp F   &kp G             &kp C              &kp R   &kp L   &kp EQUAL
+&kp LEFT_CONTROL  &kp A           &kp O             &kp E       &kp U         &kp I   &none         &none      &none      &none  &none      &kp BACKSLASH  &kp D   &kp H             &kp T              &kp N   &kp S   &kp MINUS
+&kp LSHFT         &kp SEMICOLON   &kp Q             &kp J       &kp K         &kp X                            &none      &none                            &kp B   &kp M             &kp W              &kp V   &kp Z   &none
+&none             &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB     &kp LEFT_ALT          &kp LEFT_GUI  &kp SPACE  &none      &none  &kp ENTER  &lt 1 SPACE            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none   &none
             >;
         };
 
