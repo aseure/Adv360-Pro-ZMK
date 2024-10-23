@@ -7,11 +7,74 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        macro_ver: macro_ver {
+        a_grave: a_agrave {
             compatible = "zmk,behavior-macro";
-            label = "macro_version";
             #binding-cells = <0>;
-            bindings = <&kp RET>;
+            bindings = <&kp LA(GRAVE) &kp A>;
+            label = "A_GRAVE";
+        };
+
+        o_grave: o_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp O>;
+            label = "O_GRAVE";
+        };
+
+        e_grave: e_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp E>;
+            label = "E_GRAVE";
+        };
+
+        u_grave: u_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp U>;
+            label = "U_GRAVE";
+        };
+
+        i_grave: i_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp I>;
+            label = "I_GRAVE";
+        };
+
+        a_acute: a_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp A>;
+            label = "A_ACUTE";
+        };
+
+        o_acute: o_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp O>;
+            label = "O_ACUTE";
+        };
+
+        e_acute: e_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp E>;
+            label = "E_ACUTE";
+        };
+
+        u_acute: u_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp U>;
+            label = "U_ACUTE";
+        };
+
+        i_acute: i_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp I>;
+            label = "I_ACUTE";
         };
 
         #endif
@@ -45,11 +108,11 @@
 
         fn {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans                                      &trans  &kp F6  &kp F7                &kp F8                 &kp F9           &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &none   &kp BACKSPACE         &kp UP_ARROW           &none            &kp F11  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &none                 &trans                 &trans           &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &trans   &trans
+&trans  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &trans                                      &trans  &kp F6  &kp F7                &kp F8                 &kp F9           &kp F10  &trans
+&trans  &a_acute  &o_acute  &e_acute  &u_acute  &i_acute  &trans                                      &trans  &none   &kp BACKSPACE         &kp UP_ARROW           &none            &kp F11  &trans
+&trans  &a_grave  &o_grave  &e_grave  &u_grave  &i_grave  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW  &kp F12  &trans
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans      &trans                  &trans  &none                 &trans                 &trans           &trans   &trans
+&trans  &trans    &trans    &trans    &trans              &trans  &trans  &trans      &trans  &trans  &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &trans   &trans
             >;
         };
     };
