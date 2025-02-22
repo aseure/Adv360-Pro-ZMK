@@ -40,7 +40,7 @@
 &trans  &trans  &trans  &trans      &trans      &trans  &trans                                      &trans  &trans  &trans        &kp UP_ARROW     &trans     &kp F11  &trans
 &trans  &trans  &trans  &trans      &trans      &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT      &kp DOWN         &kp RIGHT  &kp F12  &trans
 &trans  &trans  &trans  &trans      &trans      &trans                  &trans      &trans                  &trans  &trans        &trans           &trans     &trans   &trans
-&trans  &trans  &trans  &bt BT_CLR  &bt BT_NXT          &trans  &trans  &trans      &trans  &trans  &trans          &kp C_VOL_DN  &kp C_VOLUME_UP  &trans     &trans   &trans
+&stp STP_BAT  &rgb_ug RGB_TOG  &trans  &bt BT_CLR  &bt BT_NXT          &trans  &trans  &trans      &trans  &trans  &trans          &kp C_VOL_DN  &kp C_VOLUME_UP  &trans     &trans   &trans
             >;
         };
     };
